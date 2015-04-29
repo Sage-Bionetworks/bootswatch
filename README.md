@@ -20,7 +20,27 @@ Each theme consists of two LESS files. `variables.less`, which is included by de
 
 These files are also available in SASS.
 
-Check out the [Help page](http://bootswatch.com/help/) for more details on building your own theme.
+Synapse customized
+-----
+    Download this forked repo:  git clone https://github.com/Sage-Bionetworks/bootswatch.git 
+
+    Synapse customizations to the paper theme are made in a branch version that corresponds to the bootstrap version that's being used in the product.
+    At the time of writing, this is v3.3.2-customized
+
+    Following the steps from [Bootswatch](https://bootswatch.com/help/) to configure npm and grunt.
+
+    Build the bootswatch project to create a new bootstrap.min.css
+
+    Rename bootstrap.min.css to bootstrap-paper-theme.min.css
+
+    Replace the file in our gwtbootstrap3 project (gwtbootstrap3/src/main/resources/org/gwtbootstrap3/client/resource/css/bootstrap-paper-theme.min.css).
+
+    Increase the gwtbootstrap3 project version, and rebuild.
+
+    In SWC, update the pom to use the updated gwtbootstrap3 project version and rebuild.
+
+    Verify that everything looks and functions correctly after the update!
+
 
 API
 -----
