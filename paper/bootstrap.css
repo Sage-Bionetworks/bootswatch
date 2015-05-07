@@ -7026,7 +7026,7 @@ select.form-control[multiple] {
 .progress {
   position: relative;
   z-index: 1;
-  height: 6px;
+  height: 20px;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
