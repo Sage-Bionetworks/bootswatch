@@ -2,7 +2,7 @@
 /*!
  * bootswatch v3.3.2
  * Homepage: http://bootswatch.com
- * Copyright 2012-2015 Thomas Park
+ * Copyright 2012-2016 Thomas Park
  * Licensed under MIT
  * Based on Bootstrap
 */
@@ -7039,7 +7039,7 @@ select.form-control[multiple] {
 }
 .progress-bar:last-child:before {
   display: block;
-  content: 'div::before';
+  content: '';
   position: absolute;
   width: 100%;
   height: 100%;
